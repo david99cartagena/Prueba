@@ -1,0 +1,80 @@
+/* Main Styling */
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-size: 1rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+
+h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #eca023;
+}
